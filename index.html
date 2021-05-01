@@ -18,106 +18,111 @@
         <!-- This is our navbar -->
         <div class="jumbotron">
             <div id="navbar">
-                <img src="" alt="">
+                <img src="./flaticon/pizza.png" alt="">
                 <p>Pizza</p>
             </div>
             <div id="navbar">
-                <img src="" alt="">
+                <img src="./flaticon/home.png" alt="">
                 <p>Home</p>
             </div>
             <div id="navbar">
-                <img src="" alt="">
+                <img src="./flaticon/about.png" alt="">
                 <p>About</p>
             </div>
             <div id="navbar">
-                <img src="" alt="">
+                <img src="./flaticon/menu_book.png" alt="">
                 <p>Menu</p>
             </div>
             <div id="navbar">
-                <img src="" alt="">
+                <img src="./flaticon/order.png" alt="">
                 <p>Order</p>
-            </div><div id="navbar">
-                <img src="" alt="">
+            </div>
+            <div id="navbar">
+                <img src="./flaticon/contact.png" alt="">
                 <p>Contact Us</p>
             </div>
         </div>
         <!-- End of our navbar -->
 
         <!-- section for oderring of Pizza -->
-        <section  id="order" class="py-5" class="bg-info">
+
+        <section id="order" class="py-5  bg-white">
             <div class="container">
+
+
+
                 <div class="row">
                     <div class="col-md-4 mx-auto py-2">
                         <form id="myForm">
                             <div class="checkout-form">
-                                <label for="sell">Select Type :</label>
+                                <label for="sel1">Select type:</label>
                                 <select class="form-control" id="type">
-                                    <option >Margharita</option>
+                                    <option>Margherita</option>
+                                    <option>Calzone</option>
+                                    <option>Stromboli</option>
                                     <option>Marinara</option>
-                                    <option>Deep dish</option>
-                                    <option>Neapolitan</option>
-                                    <option> stromboli</option>
+                                    <option>Neapolitant</option>
+                                    <option>Deep Dish</option>
                                 </select>
                             </div>
                             <div class="checkout-form">
-                                <label for="sell">Select Size :</label>
+                                <label for="sel1">Select size:</label>
                                 <select class="form-control" id="size">
-                                    <option value="1">Large --1200</option>
-                                    <option value="2">Medium --900</option>
-                                    <option value="3">small --600</option>
-                               
+                                    <option value="1">Large---1200</option>
+                                    <option value="2">Medium---800</option>
+                                    <option value="3">Small---600</option>
+                                    <option value="4">extra --2000</option>
                                 </select>
                             </div>
                             <div class="checkout-form">
-                                <label for="sell">Select Crust :</label>
+                                <label for="sel1">Select crust:</label>
                                 <select class="form-control" id="crust">
-                                    <option >Crispy</option>
+                                    <option>Cripsy</option>
                                     <option>Stuffed</option>
                                     <option>Gluten-free</option>
-                                    <option>margarita</option>
-                                   
+                                    <option>Margherita</option>
                                 </select>
                             </div>
                             <div class="checkout-form">
-                                <label for="sell">Select Topping :</label>
+                                <label for="sel1">Select topping:</label>
                                 <select class="form-control" id="top">
-                                    <option v>paperoni</option>
-                                    <option>mushroom</option>
+                                    <option>Pepperoni</option>
+                                    <option>Mushrooms</option>
                                     <option>onions</option>
-                                    <option>suace</option>
-                                    <option> beacon</option>
+                                    <option>Sausage</option>
+                                    <option>Bacon</option>
                                 </select>
                             </div>
                             <div class="checkout-form" required>
-                                <label for="sell">Quantity :</label>
+                                <label for="sel1">Quantity:</label>
                                 <input type="number" id="qty" class="form-control" min="1" required>
                             </div>
-                            <div class="checkout-form">
-                                <label for="sell">Delivery option :</label>
+                            <div class="checkout-form" required="">
+                                <label for="sel1">Delivery option:</label>
                                 <select class="form-control" id="pick">
-                                    <option value="1">Self Pick Up</option>
+                                    <option value="1">Self pick up</option>
                                     <option value="2">Delivered</option>
-                                    
+
                                 </select>
                             </div>
                             <div class="checkout-form">
-                                <button type="submit" class="btn btn-danger btn-block">Checkout</button>
-                               
+
+                                <button type="submit" class="btn btn-danger btn-block">checkout</button>
+
                             </div>
                         </form>
                     </div>
 
                 </div>
-
             </div>
-        </section>
 
-        <script src="./js/jquery"></script>
-        <script src="./js/bootstrap.bundle.js"></script>
-        <script src="./js/scripts.js"></script>
+
+            <script src="js/jquery-3.4.1.js"></script>
+            <script src="js/bootstrap.bundle.js"></script>
+            <script src="js/scripts.js"></script>
+
+
     </div>
-
-
 </body>
 
 </html>

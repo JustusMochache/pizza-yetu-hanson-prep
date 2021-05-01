@@ -7,6 +7,19 @@ html{
 .jumbotron{
     display:flex;
     justify-content:space-evenly;
-    border-bottom: 2px solid black;
+    
     
 }
+
+#navbar >img{
+	width: 60px;
+	height: 60px;
+}
+body{
+    background: linear-gradient(
+        to left bottom,
+        rgba(120, 177, 215, 1),
+        rgba(200, 102, 164, 0.25)
+      );
+    /* backdrop-filter: blur(2rem); */
+  }
