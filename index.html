@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Yetu</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- This is our navbar -->
+        <div class="jumbotron">
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Pizza</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Home</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>About</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Menu</p>
+            </div>
+            <div id="navbar">
+                <img src="" alt="">
+                <p>Order</p>
+            </div><div id="navbar">
+                <img src="" alt="">
+                <p>Contact Us</p>
+            </div>
+        </div>
+        <!-- End of our navbar -->
+
+        <!-- section for oderring of Pizza -->
+        <section  id="order" class="py-5" class="bg-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mx-auto py-2">
+                        <form id="myForm">
+                            <div class="checkout-form">
+                                <label for="sell">Select Type :</label>
+                                <select class="form-control" id="type">
+                                    <option >Margharita</option>
+                                    <option>Marinara</option>
+                                    <option>Deep dish</option>
+                                    <option>Neapolitan</option>
+                                    <option> stromboli</option>
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Select Size :</label>
+                                <select class="form-control" id="size">
+                                    <option value="1">Large --1200</option>
+                                    <option value="2">Medium --900</option>
+                                    <option value="3">small --600</option>
+                               
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Select Crust :</label>
+                                <select class="form-control" id="crust">
+                                    <option >Crispy</option>
+                                    <option>Stuffed</option>
+                                    <option>Gluten-free</option>
+                                    <option>margarita</option>
+                                   
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Select Topping :</label>
+                                <select class="form-control" id="top">
+                                    <option v>paperoni</option>
+                                    <option>mushroom</option>
+                                    <option>onions</option>
+                                    <option>suace</option>
+                                    <option> beacon</option>
+                                </select>
+                            </div>
+                            <div class="checkout-form" required>
+                                <label for="sell">Quantity :</label>
+                                <input type="number" id="qty" class="form-control" min="1" required>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Delivery option :</label>
+                                <select class="form-control" id="pick">
+                                    <option value="1">Self Pick Up</option>
+                                    <option value="2">Delivered</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <button type="submit" class="btn btn-danger btn-block">Checkout</button>
+                               
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <script src="./js/jquery"></script>
+        <script src="./js/bootstrap.bundle.js"></script>
+        <script src="./js/scripts.js"></script>
+    </div>
+
+
+</body>
+
+</html>
